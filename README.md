@@ -33,7 +33,7 @@ Ploted for each dimension, including ground truth position, measurements, and Ka
 
 ![pos_y](https://github.com/kutaykivik/Kalman-Filter-Simulation/assets/89020731/d5816b3c-6d56-4944-810d-75b470d7b0e1)
 
-Ploted for each dimension, including ground truth position, measurements, and Kalman Filter position outputs:
+Ploted for each dimension, including ground truth position and Kalman Filter velocity outputs:
 
 ![vel_x](https://github.com/kutaykivik/Kalman-Filter-Simulation/assets/89020731/86ee16e8-2144-4604-9fea-4f79b868ca1f)
 

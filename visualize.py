@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import re
 
-log_data_location = "C:/Users/oykum/Documents/Projects/KalmanFilter/src/output.txt"
+log_data_location = "C:/Users/kutay/Documents/Projects/KalmanFilter/src/output.txt"
 # Read the log data
 with open(log_data_location, "r") as file:
     log_data = file.read()

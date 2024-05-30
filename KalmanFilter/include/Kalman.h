@@ -19,9 +19,7 @@ typedef struct {
     double IData[16];
 } KalmanFilter;
 
-
 void kalman_init(KalmanFilter* kf);
 void kalmanFilter(KalmanFilter* kf, double *measured);
-
 
 #endif

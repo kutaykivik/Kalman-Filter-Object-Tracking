@@ -15,7 +15,7 @@ The Kalman Filter was implemented to track a moving object with constant velocit
 A measurement simulator was developed as a separate task to test the Kalman Filter. The simulator accepts initial position, velocity, and variance of Gaussian noise as input. It generates ground truth data, adds zero-mean Gaussian noise to simulate measurements, and drops some measurements with a defined probability.
 
 ## Implementation Details
-The project consists of two main tasks: the Kalman Filter task and the Measurement Simulator task. These tasks communicate using an appropriate synchronization mechanism provided by FreeRTOS.
+The project consists of two main tasks: the Kalman Filter task and the Measurement Simulator task. These tasks communicate using an appropriate synchronization mechanism by FreeRTOS.
 
 ### Task Communication
 Measurements from the simulator task are passed to the Kalman Filter task, allowing real-time processing and estimation.
